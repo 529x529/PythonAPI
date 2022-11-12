@@ -3,7 +3,7 @@ import requests
 class TestFirstAPI:
     def test_hello_call(self):
         url = "https://playground.learnqa.ru/api/hello"
-        name = 'Vitalii'
+        name = 'Oleg'
         data = {'name':name}
 
         response = requests.get(url, params=data)
